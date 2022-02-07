@@ -18,9 +18,9 @@ const profileKeys = ['pronouns', 'job', 'tech', 'location', 'code', 'tools'] as 
 type ProfileKeys = typeof profileKeys[number];
 
 const Loz: { [key in ProfileKeys]: string | string[] }  = {
-  pronouns: "he" | "him",
+  pronouns: 'he | him',
   job: 'Associate Software Engineer',
-  location: UK,
+  location: 'UK',
   code: ['Javascript', 'Typescript', 'HTML', 'CSS', 'SQL'],
   tools: ['React', 'Redux', 'Node', 'Storybook', 'Styled-Components', 'Jest', 'Docker', 'Kubernetes', 'InversifyJs', 'Angular'],
 }
